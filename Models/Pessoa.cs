@@ -1,4 +1,6 @@
-namespace DesafioProjetoHospedagem.Models;
+using DesafioDoisDIO.Models;
+
+namespace DesafioDoisDIO.Models;
 
 public class Pessoa
 {
@@ -9,13 +11,23 @@ public class Pessoa
         Nome = nome;
     }
 
-    public Pessoa(string nome, string sobrenome)
+    public Pessoa(string nome, string cpf)
     {
         Nome = nome;
-        Sobrenome = sobrenome;
+        NumeroCPF = cpf;    
     }
 
+    public Pessoa(int id, string nome, string sobrenome, string cpf)
+    {
+        Id = id;
+        Nome = nome;
+        Sobrenome = sobrenome;
+        NumeroCPF = cpf;
+    }
+
+    public int Id { get; set; }
     public string Nome { get; set; }
     public string Sobrenome { get; set; }
+    public string NumeroCPF { get; set; }
     public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
 }

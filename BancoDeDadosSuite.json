@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Codigo": "784YTR",
+    "TipoSuite": "Master",
+    "Capacidade": 2,
+    "ValorDiaria": 568.2
+  },
+  {
+    "Id": 2,
+    "Codigo": "521HTG",
+    "TipoSuite": "Master",
+    "Capacidade": 2,
+    "ValorDiaria": 465.25
+  },
+  {
+    "Id": 3,
+    "Codigo": "89GTRF",
+    "TipoSuite": "Padrão",
+    "Capacidade": 6,
+    "ValorDiaria": 398.47
+  }
+]
